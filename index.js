@@ -132,7 +132,8 @@ Discovery.prototype._createTracker = function () {
 
   var trackerOpts = {
     rtcConfig: self.rtcConfig,
-    wrtc: self.wrtc
+    wrtc: self.wrtc,
+    statsForAnnounce: self.statsForAnnounce
   }
 
   self.tracker = new Tracker(self.peerId, self.port, torrent, trackerOpts)
