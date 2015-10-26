@@ -134,6 +134,7 @@ Discovery.prototype._createTracker = function () {
     rtcConfig: self.rtcConfig,
     wrtc: self.wrtc,
     statsForAnnounce: self.statsForAnnounce,
+    key: self.trackerKey,
     userAgent: self.userAgent
   }
 
